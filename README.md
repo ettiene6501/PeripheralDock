@@ -180,6 +180,34 @@ dist\PeripheralDock\PeripheralDock.exe
 - 應用程式不發送網路請求。
 - 第三方參考：Solaar（GPL-2.0-or-later）只用於協定研究，未複製程式碼；詳見 [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md)。
 
+## 資料來源與致謝
+
+這個專案能完成，主要來自以下公開資料、協定文件與社群實作。感謝各專案作者與維護者；所有商標與著作權屬於各自所有者。
+
+| 資料來源 | 用途 | 授權／備註 |
+|---|---|---|
+| [pwr-Solaar/Solaar](https://github.com/pwr-Solaar/Solaar) | 交叉驗證 Logitech HID++ 2.0 訊息框架、`BATTERY_STATUS(0x1000)` / `UNIFIED_BATTERY(0x1004)` 欄位、M235 WPID `4055` | GPL-2.0-or-later；本專案**沒有複製或連結其程式碼**，只依協定行為重新實作 |
+| [Solaar devices.md](https://github.com/pwr-Solaar/Solaar/blob/master/docs/devices.md) | M235 的 WPID 與 HID++ 世代對照 | 同上 |
+| [Solaar hidpp20.py](https://github.com/pwr-Solaar/Solaar/blob/master/lib/logitech_receiver/hidpp20.py) | HID++ feature request 與電池回應格式參考 | 同上 |
+| [Microsoft Learn: BluetoothLEDevice](https://learn.microsoft.com/uwp/api/windows.devices.bluetooth.bluetoothledevice) | Windows 藍牙 LE 物件與 GATT 查詢 | Microsoft 文件 |
+| [Microsoft Learn: GATT Battery Service](https://learn.microsoft.com/uwp/api/windows.devices.bluetooth.genericattributeprofile.gattdeviceservice) | `0x180F` / `0x2A19` 標準 Battery Service | Microsoft 文件 |
+| [USB-IF HID Usage Tables 1.12](https://usb.org/document-library/hid-usage-tables-112) | Generic Device Controls `0x06`、Battery Strength `0x20` 的判定 | USB-IF 文件 |
+| [SgZincanya/ChargeDock](https://github.com/SgZincanya/ChargeDock) | 系統匣優先、使用者範圍開機啟動、硬體狀態分級的產品參考 | 參考專案；本專案未複製其程式碼 |
+| [Redmi Buds 4 Active FAQ](https://www.mi.com/de/support/faq/details/KA-50604/) | Redmi 耳機功能與連線方式背景 | 小米官方 FAQ |
+| [Rapoo E1050 產品頁](https://www.rapoo.com/ru/product/E1050) | Rapoo E1050 規格與型號背景 | Rapoo 官方產品頁 |
+| [SpartanX1/bluetooth_classic_battery_windows](https://github.com/SpartanX1/bluetooth_classic_battery_windows) | 經典藍牙耳機以 RFCOMM / `AT+IPHONEACCEV` 取得電量的研究 | 僅作背景參考；本專案未採用，避免搶占音訊通道 |
+| [Microsoft Q&A: Bluetooth battery level](https://learn.microsoft.com/en-us/answers/questions/32945/is-there-any-way-can-get-the-bluetooth-battery-lev) | 確認 Windows 沒有公開的經典藍牙耳機電量查詢 API | Microsoft Q&A 討論 |
+
+特別感謝：
+
+- **pwr-Solaar 社群**公開 HID++ 實作與裝置資料，讓 M235 的 WPID、feature index 與電池欄位可以交叉驗證。
+- **Microsoft Learn / Windows 開發文件**提供 WinRT、GATT、HID 與 SetupAPI 的官方行為說明。
+- **USB-IF** 維護 HID Usage Tables，讓 Battery Strength 的判定有標準依據。
+- **SgZincanya/ChargeDock** 作為系統匣周邊電量工具的產品參考，特別是「只顯示可驗證資料」與「依設備分開處理」的方向。
+- 硬體供應商 **Redmi / Rapoo / Logitech** 的產品文件，以及所有在文件中留下協定觀察的開源社群貢獻者。
+
+更完整的第三方授權與引用說明見 [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md)。
+
 ## 授權
 
 本專案原創程式碼採用 MIT License；第三方元件與參考資料另見 `THIRD_PARTY_NOTICES.md`。
