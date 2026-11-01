@@ -1,0 +1,437 @@
+{
+  "environment": {
+    "captured_at": "2026-11-01T16:12:18+08:00",
+    "os": "Windows-10-10.0.19044-SP0",
+    "windows_build": "10.0.19044",
+    "python": "3.12.14 (main, Sep  1 2026, 14:17:39) [MSC v.1944 64 bit (AMD64)]",
+    "executable": "C:\\Users\\ettie\\.dsh\\dsh-runtimes\\dsh-primary-runtime\\dependencies\\python\\python.exe",
+    "frozen": false,
+    "administrator": false
+  },
+  "hid_devices": [
+    {
+      "path": "\\\\?\\hid#vid_046d&pid_c52b&mi_02&col03#8&18be37b8&0&0002#{4d1e55b2-f16f-11cf-88cb-001111000030}",
+      "instance_id": "HID\\VID_046D&PID_C52B&MI_02&COL03\\8&18BE37B8&0&0002",
+      "parent_instance_id": "\\Device\\0000006f",
+      "vid_pid": "046D:C52B",
+      "version_number": "1211",
+      "product": "USB Receiver",
+      "manufacturer": "Logitech",
+      "serial_number": null,
+      "usage_page": "0xFF00",
+      "usage": "0x0004",
+      "input_report_bytes": 32,
+      "output_report_bytes": 32,
+      "feature_report_bytes": 0,
+      "battery_values": [],
+      "open_error": null
+    },
+    {
+      "path": "\\\\?\\hid#vid_24ae&pid_2010&mi_00#8&1b6860ce&0&0000#{4d1e55b2-f16f-11cf-88cb-001111000030}",
+      "instance_id": "HID\\VID_24AE&PID_2010&MI_00\\8&1B6860CE&0&0000",
+      "parent_instance_id": "\\Device\\00000070",
+      "vid_pid": "24AE:2010",
+      "version_number": "0110",
+      "product": "Rapoo 2.4G Wireless Device",
+      "manufacturer": "RAPOO",
+      "serial_number": null,
+      "usage_page": "0x0001",
+      "usage": "0x0002",
+      "input_report_bytes": 7,
+      "output_report_bytes": 0,
+      "feature_report_bytes": 0,
+      "battery_values": [],
+      "open_error": null
+    },
+    {
+      "path": "\\\\?\\hid#vid_24ae&pid_2010&mi_02#8&62dcf43&0&0000#{4d1e55b2-f16f-11cf-88cb-001111000030}\\kbd",
+      "instance_id": "HID\\VID_24AE&PID_2010&MI_02\\8&62DCF43&0&0000",
+      "parent_instance_id": "\\Device\\00000074",
+      "vid_pid": "24AE:2010",
+      "version_number": "0110",
+      "product": "Rapoo 2.4G Wireless Device",
+      "manufacturer": "RAPOO",
+      "serial_number": null,
+      "usage_page": "0x0001",
+      "usage": "0x0006",
+      "input_report_bytes": 9,
+      "output_report_bytes": 2,
+      "feature_report_bytes": 0,
+      "battery_values": [],
+      "open_error": null
+    },
+    {
+      "path": "\\\\?\\hid#vid_046d&pid_c52b&mi_00#8&383a62d&0&0000#{4d1e55b2-f16f-11cf-88cb-001111000030}\\kbd",
+      "instance_id": "HID\\VID_046D&PID_C52B&MI_00\\8&383A62D&0&0000",
+      "parent_instance_id": "\\Device\\00000067",
+      "vid_pid": "046D:C52B",
+      "version_number": "1211",
+      "product": "USB Receiver",
+      "manufacturer": "Logitech",
+      "serial_number": null,
+      "usage_page": "0x0001",
+      "usage": "0x0006",
+      "input_report_bytes": 9,
+      "output_report_bytes": 2,
+      "feature_report_bytes": 0,
+      "battery_values": [],
+      "open_error": null
+    },
+    {
+      "path": "\\\\?\\hid#vid_24ae&pid_2010&mi_01&col01#8&2e987d0c&0&0000#{4d1e55b2-f16f-11cf-88cb-001111000030}",
+      "instance_id": "HID\\VID_24AE&PID_2010&MI_01&COL01\\8&2E987D0C&0&0000",
+      "parent_instance_id": "\\Device\\00000071",
+      "vid_pid": "24AE:2010",
+      "version_number": "0110",
+      "product": "Rapoo 2.4G Wireless Device",
+      "manufacturer": "RAPOO",
+      "serial_number": null,
+      "usage_page": "0xFF00",
+      "usage": "0x000E",
+      "input_report_bytes": 32,
+      "output_report_bytes": 32,
+      "feature_report_bytes": 0,
+      "battery_values": [],
+      "open_error": null
+    },
+    {
+      "path": "\\\\?\\hid#vid_24ae&pid_2010&mi_01&col02#8&2e987d0c&0&0001#{4d1e55b2-f16f-11cf-88cb-001111000030}",
+      "instance_id": "HID\\VID_24AE&PID_2010&MI_01&COL02\\8&2E987D0C&0&0001",
+      "parent_instance_id": "\\Device\\00000072",
+      "vid_pid": "24AE:2010",
+      "version_number": "0110",
+      "product": "Rapoo 2.4G Wireless Device",
+      "manufacturer": "RAPOO",
+      "serial_number": null,
+      "usage_page": "0x0001",
+      "usage": "0x0080",
+      "input_report_bytes": 2,
+      "output_report_bytes": 0,
+      "feature_report_bytes": 0,
+      "battery_values": [],
+      "open_error": null
+    },
+    {
+      "path": "\\\\?\\hid#vid_24ae&pid_2010&mi_01&col03#8&2e987d0c&0&0002#{4d1e55b2-f16f-11cf-88cb-001111000030}",
+      "instance_id": "HID\\VID_24AE&PID_2010&MI_01&COL03\\8&2E987D0C&0&0002",
+      "parent_instance_id": "\\Device\\00000073",
+      "vid_pid": "24AE:2010",
+      "version_number": "0110",
+      "product": "Rapoo 2.4G Wireless Device",
+      "manufacturer": "RAPOO",
+      "serial_number": null,
+      "usage_page": "0x000C",
+      "usage": "0x0001",
+      "input_report_bytes": 3,
+      "output_report_bytes": 0,
+      "feature_report_bytes": 0,
+      "battery_values": [],
+      "open_error": null
+    },
+    {
+      "path": "\\\\?\\hid#vid_046d&pid_c52b&mi_01&col01#8&2bee53f6&0&0000#{4d1e55b2-f16f-11cf-88cb-001111000030}",
+      "instance_id": "HID\\VID_046D&PID_C52B&MI_01&COL01\\8&2BEE53F6&0&0000",
+      "parent_instance_id": "\\Device\\00000068",
+      "vid_pid": "046D:C52B",
+      "version_number": "1211",
+      "product": "USB Receiver",
+      "manufacturer": "Logitech",
+      "serial_number": null,
+      "usage_page": "0x0001",
+      "usage": "0x0002",
+      "input_report_bytes": 8,
+      "output_report_bytes": 0,
+      "feature_report_bytes": 0,
+      "battery_values": [],
+      "open_error": null
+    },
+    {
+      "path": "\\\\?\\hid#vid_046d&pid_c52b&mi_01&col02#8&2bee53f6&0&0001#{4d1e55b2-f16f-11cf-88cb-001111000030}",
+      "instance_id": "HID\\VID_046D&PID_C52B&MI_01&COL02\\8&2BEE53F6&0&0001",
+      "parent_instance_id": "\\Device\\00000069",
+      "vid_pid": "046D:C52B",
+      "version_number": "1211",
+      "product": "USB Receiver",
+      "manufacturer": "Logitech",
+      "serial_number": null,
+      "usage_page": "0x000C",
+      "usage": "0x0001",
+      "input_report_bytes": 5,
+      "output_report_bytes": 0,
+      "feature_report_bytes": 0,
+      "battery_values": [],
+      "open_error": null
+    },
+    {
+      "path": "\\\\?\\hid#vid_046d&pid_c52b&mi_01&col03#8&2bee53f6&0&0002#{4d1e55b2-f16f-11cf-88cb-001111000030}",
+      "instance_id": "HID\\VID_046D&PID_C52B&MI_01&COL03\\8&2BEE53F6&0&0002",
+      "parent_instance_id": "\\Device\\0000006a",
+      "vid_pid": "046D:C52B",
+      "version_number": "1211",
+      "product": "USB Receiver",
+      "manufacturer": "Logitech",
+      "serial_number": null,
+      "usage_page": "0x0001",
+      "usage": "0x0080",
+      "input_report_bytes": 2,
+      "output_report_bytes": 0,
+      "feature_report_bytes": 0,
+      "battery_values": [],
+      "open_error": null
+    },
+    {
+      "path": "\\\\?\\hid#vid_046d&pid_c52b&mi_01&col04#8&2bee53f6&0&0003#{4d1e55b2-f16f-11cf-88cb-001111000030}",
+      "instance_id": "HID\\VID_046D&PID_C52B&MI_01&COL04\\8&2BEE53F6&0&0003",
+      "parent_instance_id": "\\Device\\0000006b",
+      "vid_pid": "046D:C52B",
+      "version_number": "1211",
+      "product": "USB Receiver",
+      "manufacturer": "Logitech",
+      "serial_number": null,
+      "usage_page": "0xFFBC",
+      "usage": "0x0088",
+      "input_report_bytes": 2,
+      "output_report_bytes": 0,
+      "feature_report_bytes": 0,
+      "battery_values": [],
+      "open_error": null
+    },
+    {
+      "path": "\\\\?\\hid#vid_046d&pid_c52b&mi_02&col01#8&18be37b8&0&0000#{4d1e55b2-f16f-11cf-88cb-001111000030}",
+      "instance_id": "HID\\VID_046D&PID_C52B&MI_02&COL01\\8&18BE37B8&0&0000",
+      "parent_instance_id": "\\Device\\0000006d",
+      "vid_pid": "046D:C52B",
+      "version_number": "1211",
+      "product": "USB Receiver",
+      "manufacturer": "Logitech",
+      "serial_number": null,
+      "usage_page": "0xFF00",
+      "usage": "0x0001",
+      "input_report_bytes": 7,
+      "output_report_bytes": 7,
+      "feature_report_bytes": 0,
+      "battery_values": [],
+      "open_error": null
+    },
+    {
+      "path": "\\\\?\\hid#vid_046d&pid_c52b&mi_02&col02#8&18be37b8&0&0001#{4d1e55b2-f16f-11cf-88cb-001111000030}",
+      "instance_id": "HID\\VID_046D&PID_C52B&MI_02&COL02\\8&18BE37B8&0&0001",
+      "parent_instance_id": "\\Device\\0000006e",
+      "vid_pid": "046D:C52B",
+      "version_number": "1211",
+      "product": "USB Receiver",
+      "manufacturer": "Logitech",
+      "serial_number": null,
+      "usage_page": "0xFF00",
+      "usage": "0x0002",
+      "input_report_bytes": 20,
+      "output_report_bytes": 20,
+      "feature_report_bytes": 0,
+      "battery_values": [],
+      "open_error": null
+    }
+  ],
+  "bluetooth_devices": [
+    {
+      "name": "Redmi Buds 4 Active",
+      "address": "48:73:CB:47:62:68",
+      "instance_id": "BTHENUM\\Dev_4873CB476268",
+      "services": [
+        "00001101-0000-1000-8000-00805f9b34fb",
+        "0000110b-0000-1000-8000-00805f9b34fb",
+        "0000110c-0000-1000-8000-00805f9b34fb",
+        "0000110e-0000-1000-8000-00805f9b34fb",
+        "0000111e-0000-1000-8000-00805f9b34fb",
+        "0000fd2d-0000-1000-8000-00805f9b34fb",
+        "df21fe2c-2515-4fdb-8886-f12c4d67927c"
+      ],
+      "has_le_node": false
+    }
+  ],
+  "adapters": [
+    {
+      "key": "redmi-buds-4-active",
+      "name": "Redmi Buds 4 Active",
+      "discovery": {
+        "detected": true,
+        "connected": false,
+        "name": "Redmi Buds 4 Active",
+        "identifiers": {
+          "bluetooth_address": "48:73:CB:47:62:68",
+          "bth_enum": "BTHENUM\\Dev_4873CB476268",
+          "services": "00001101-0000-1000-8000-00805f9b34fb, 0000110b-0000-1000-8000-00805f9b34fb, 0000110c-0000-1000-8000-00805f9b34fb, 0000110e-0000-1000-8000-00805f9b34fb, 0000111e-0000-1000-8000-00805f9b34fb, 0000fd2d-0000-1000-8000-00805f9b34fb, df21fe2c-2515-4fdb-8886-f12c4d67927c",
+          "ble_node": "no"
+        },
+        "detail": "已配對的經典藍牙音訊裝置；Windows 未建立 BTHLE/GATT 物件。即時連線狀態需由 WinRT BluetoothDevice 另行查詢。",
+        "error_message": null
+      },
+      "battery": {
+        "percentage": null,
+        "charging": null,
+        "status": "unsupported",
+        "source": "windows-classic-bluetooth",
+        "timestamp": null,
+        "age_seconds": null,
+        "error_message": "Windows 未提供可讀取的經典藍牙耳機電量：沒有 BTHLE/GATT Battery Service（0x180F/0x2A19），也沒有公開的 HFP 電量查詢 API。已觀測服務：00001101-0000-1000-8000-00805f9b34fb, 0000110b-0000-1000-8000-00805f9b34fb, 0000110c-0000-1000-8000-00805f9b34fb, 0000110e-0000-1000-8000-00805f9b34fb, 0000111e-0000-1000-8000-00805f9b34fb, 0000fd2d-0000-1000-8000-00805f9b34fb, df21fe2c-2515-4fdb-8886-f12c4d67927c。不顯示任何百分比。",
+        "components": {}
+      },
+      "capabilities": {
+        "can_read_battery": false,
+        "can_read_charging": false,
+        "supports_components": false,
+        "protocols": [
+          "Classic Bluetooth A2DP/HFP/AVRCP"
+        ],
+        "notes": "未取得標準 GATT Battery Service；HFP 電量僅能由耳機主動送出，Windows 沒有公開 API 可查詢。不得以藍牙版本或音訊連線推論電量。"
+      }
+    },
+    {
+      "key": "rapoo-e1050",
+      "name": "Rapoo E1050 無線鍵盤",
+      "discovery": {
+        "detected": true,
+        "connected": true,
+        "name": "Rapoo 2.4G Wireless Device",
+        "identifiers": {
+          "vid_pid": "24AE:2010",
+          "product": "Rapoo 2.4G Wireless Device",
+          "manufacturer": "RAPOO",
+          "keyboard_interface": "HID\\VID_24AE&PID_2010&MI_02\\8&62DCF43&0&0000",
+          "hid_interfaces": "5"
+        },
+        "detail": "接收器與鍵盤 HID 集合存在；裝置字串未包含 E1050 型號，因此型號只能標為待實物確認。",
+        "error_message": null
+      },
+      "battery": {
+        "percentage": null,
+        "charging": null,
+        "status": "unsupported",
+        "source": "windows-hid",
+        "timestamp": null,
+        "age_seconds": null,
+        "error_message": "HID report descriptor 沒有 Generic Device Controls Battery Strength（Usage Page 0x06 / Usage 0x20），也沒有 Feature Report；Rapoo 未公開此型號的電量協定，因此不可讀取電量。",
+        "components": {}
+      },
+      "capabilities": {
+        "can_read_battery": false,
+        "can_read_charging": false,
+        "supports_components": false,
+        "protocols": [
+          "USB HID keyboard"
+        ],
+        "notes": "24AE:2010 的 Product String 只顯示 Rapoo 2.4G Wireless Device；未找到官方 SDK/協定文件，不發送廠商 HID 寫入命令。"
+      }
+    },
+    {
+      "key": "logitech-m235",
+      "name": "Logitech M235 無線滑鼠",
+      "discovery": {
+        "detected": true,
+        "connected": true,
+        "name": "Logitech M235 無線滑鼠",
+        "identifiers": {
+          "vid_pid": "046D:C52B",
+          "receiver_product": "USB Receiver",
+          "hidpp_interface": "HID\\VID_046D&PID_C52B&MI_02&COL02\\8&18BE37B8&0&0001",
+          "device_index": "1",
+          "wpid": "4055",
+          "unit_id": "A1EA4DA9",
+          "model_id": "405500000000"
+        },
+        "detail": "WPID 4055；HID++ 2.0 裝置 index 1；名稱：Logitech M235 無線滑鼠",
+        "error_message": null
+      },
+      "battery": {
+        "percentage": 70,
+        "charging": false,
+        "status": "ok",
+        "source": "logitech-hidpp2:0x1000",
+        "timestamp": "2026-11-01T16:12:18+08:00",
+        "age_seconds": 0.0,
+        "error_message": null,
+        "components": {}
+      },
+      "capabilities": {
+        "can_read_battery": true,
+        "can_read_charging": true,
+        "supports_components": false,
+        "protocols": [
+          "Logitech HID++ 2.0",
+          "BATTERY_STATUS 0x1000"
+        ],
+        "notes": "只發送 ROOT.GetFeature、DEVICE_FW_VERSION、DEVICE_NAME、BATTERY_STATUS/UNIFIED_BATTERY 的唯讀查詢。"
+      },
+      "hidpp_trace": [
+        {
+          "direction": "tx",
+          "data": "1101001B00005A00000000000000000000000000"
+        },
+        {
+          "direction": "rx",
+          "data": "1101001B04055A00000000000000000000000000"
+        },
+        {
+          "direction": "tx",
+          "data": "1101000B00030000000000000000000000000000"
+        },
+        {
+          "direction": "rx",
+          "data": "1101000B02000100000000000000000000000000"
+        },
+        {
+          "direction": "tx",
+          "data": "1101020B00000000000000000000000000000000"
+        },
+        {
+          "direction": "rx",
+          "data": "1101020B01A1EA4DA90004405500000000000000"
+        },
+        {
+          "direction": "tx",
+          "data": "1101000B00050000000000000000000000000000"
+        },
+        {
+          "direction": "rx",
+          "data": "1101000B03000000000000000000000000000000"
+        },
+        {
+          "direction": "tx",
+          "data": "1101030B00000000000000000000000000000000"
+        },
+        {
+          "direction": "rx",
+          "data": "1101030B0E000000000000000000000000000000"
+        },
+        {
+          "direction": "tx",
+          "data": "1101031B00000000000000000000000000000000"
+        },
+        {
+          "direction": "rx",
+          "data": "1101031B576972656C657373204D6F7573650000"
+        },
+        {
+          "direction": "tx",
+          "data": "1101000B10000000000000000000000000000000"
+        },
+        {
+          "direction": "rx",
+          "data": "1101000B05000000000000000000000000000000"
+        },
+        {
+          "direction": "tx",
+          "data": "1101050B00000000000000000000000000000000"
+        },
+        {
+          "direction": "rx",
+          "data": "1101050B46050000000000000000000000000000"
+        }
+      ]
+    }
+  ],
+  "winrt_redmi_probe": {
+    "exit_code": 0,
+    "stderr": "",
+    "stdout": "{\n    \"address\":  \"4873CB476268\",\n    \"classic_device_found\":  true,\n    \"classic_name\":  \"Redmi Buds 4 Active\",\n    \"classic_connection_status\":  \"Connected\",\n    \"device_found\":  false,\n    \"device_name\":  null,\n    \"connection_status\":  null,\n    \"gatt_status\":  null,\n    \"gatt_services\":  [\n\n                      ],\n    \"battery_service_found\":  false,\n    \"battery_level\":  null,\n    \"error\":  \"FromBluetoothAddressAsync returned null (no BLE object)\",\n    \"le_devices\":  [\n\n                   ]\n}"
+  }
+}
