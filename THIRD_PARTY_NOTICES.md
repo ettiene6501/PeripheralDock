@@ -24,8 +24,10 @@
 
 ### 其他參考
 
+- [SgZincanya/ChargeDock](https://github.com/SgZincanya/ChargeDock)：系統匣優先、使用者範圍開機啟動、硬體狀態分級的產品參考；本專案未複製其程式碼。
 - `SpartanX1/bluetooth_classic_battery_windows`：經典藍牙耳機以 RFCOMM 監聽
   `AT+IPHONEACCEV` 的實驗；本專案**未採用**，以避免搶占音訊通道與依賴耳機主動事件。
+- [Microsoft Q&A: Bluetooth battery level](https://learn.microsoft.com/en-us/answers/questions/32945/is-there-any-way-can-get-the-bluetooth-battery-lev)：確認 Windows 沒有公開的經典藍牙耳機電量查詢 API。
 - Rapoo E1050 官方產品頁：僅規格，無 SDK/電量協定。
 
 ## 圖片與字型
